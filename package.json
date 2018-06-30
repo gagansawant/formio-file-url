@@ -1,0 +1,35 @@
+{
+  "name": "formio-file-url",
+  "version": "1.0.0",
+  "description": "Setup this application as a server. Use it to upload files via formio File Component.",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./bin/www"
+  },
+  "keywords": [
+    "Express",
+    "Mongoose",
+    "Node",
+    "MEAN"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gagansawant/formio-file-url.git"
+  },
+  "author": "Gagandeep Sawant",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.264.1",
+    "connect-multiparty": "^2.1.1",
+    "cookie-parser": "~1.4.3",
+    "cors": "^2.8.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "hbs": "~4.0.1",
+    "http-errors": "~1.6.2",
+    "morgan": "~1.9.0",
+    "multer": "^1.3.0",
+    "multer-s3": "^2.7.0",
+    "nodemon": "^1.17.5"
+  }
+}
